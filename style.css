@@ -4,6 +4,7 @@
     --basic-white: #ffffff;
     --basic-blue: #81B3D2;
     --basic-grey: #EEEEEE ;
+    --basic-red: #FF0000 ;
 
 body {
         min-width: 960px;
@@ -36,4 +37,15 @@ height: auto;
     background-color: transparent;
   }
 
-
+  .site-navigation {
+    list-style: none;
+  }
+  
+  .site-navigation a {
+    color: var(--basic-black);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus {
+    background-color: var(--basic-extra-dark);
+  }
