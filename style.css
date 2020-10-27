@@ -53,7 +53,7 @@ height: auto;
 /*features*/
 
   .features-list {
-    list-style: none;
+    list-style: center;
   }
 
   .correction {
