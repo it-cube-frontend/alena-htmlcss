@@ -37,7 +37,7 @@ max-width: 100%;
 height: auto;
  }
 
- /*main navigation*/
+/*main navigation*/
 
  .main-navigation {
     font-size: 14px;
@@ -50,7 +50,7 @@ height: auto;
     list-style: none;
   }
 
-  /*features*/
+/*features*/
 
   .features-list {
     list-style: none;
@@ -82,7 +82,7 @@ height: auto;
   background-color: var(--basic-black);
 }
 
- /*contacts */
+/*contacts */
 
  .contacts-phone {
   color: inherit;
