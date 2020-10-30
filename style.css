@@ -81,6 +81,11 @@ height: auto;
   margin: 0;
 }
 
+.features-addition {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+}
+
 .features-with-image {
   background-color: var(--basic-blue);
   color: var(--basic-white);
