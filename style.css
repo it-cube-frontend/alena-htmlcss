@@ -107,6 +107,43 @@ height: auto;
   background-color: var(--basic-extra-brown);
 }
 
+.detail button{
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-white);
+  font-weight: 700;
+  border: none;
+  background-color: var(--basic-blue);
+}
+
+
+.detail button:hover {
+  background-color: var(--basic-blue-dark);
+}
+
+.detail button:active {
+  background-color: var(--basic-blue-extra-dark);
+}
+
+
+.reservation button{
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-white);
+  font-weight: 700;
+  border: none;
+  background-color: var(--basic-brown);
+}
+
+
+.reservation button:hover {
+  background-color: var(--basic-brown-dark);
+}
+
+.reservation button:active {
+  background-color: var(--basic-extra-brown);
+}
+
 .question {
   font-size: 30px;
   line-height: 24px;
@@ -131,4 +168,49 @@ height: auto;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
+}
+
+.hotel {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+}
+
+.hotel {
+  list-style: none;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.sort {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: underline;
+}
+
+.sort a{
+  
+}
+
+.sorting{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+}
+
+.additional-information {
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
 }
