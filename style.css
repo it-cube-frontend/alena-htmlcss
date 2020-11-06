@@ -226,3 +226,18 @@ font-size: 14px;
 font-weight: 400;
 line-height: 21px;
 }
+
+/*.arrows {
+ color: var(--basic-grey-extra-dark);
+}
+.arrows a {
+ color: var(--basic-grey-extra-dark);
+}
+
+.arrows a:hover {
+  color: var(--basic-black);
+}
+
+.arrows a:active {
+  color: var(--basic-blue);
+}*/
