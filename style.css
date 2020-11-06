@@ -182,18 +182,30 @@ height: auto;
 }
 
 .hotel {
+  list-style-type: none;
   background-color: var(--basic-white);
   color: var(--basic-black);
 }
 
-.hotel {
+.hotel a {
   list-style: none;
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
+  color: var(--basic-black);
 }
-/*.sort {
-  list-style: none;*/
+
+.hotel a:hover {
+  color: var(--basic-blue);
+}
+
+.hotel a:active {
+  color: var(--basic-grey-extra-dark);
+}
+
+.sort {
+  list-style-type: none;
+}
   
 
 .sort a{
