@@ -9,8 +9,9 @@
     --basic-blue-dark: #669EC0;
     --basic-blue-extra-dark: #5496BD;
     --basic-grey: #F2F2F2;
-    --basik-grey-dark: #EEEEEE;
+    --basic-grey-dark: #EEEEEE;
     --basic-red: #FF0000;
+    --basic-grey-extra-dark: #CACACA;
     
  
     --special: #669EC0;
@@ -192,15 +193,28 @@ height: auto;
   font-weight: 700;
   line-height: 26px;
 }
+/*.sort {
+  list-style: none;*/
+  
 
-.sort {
+.sort a{
   list-style: none;
-  font-size: 14px;
+  color: var(--basic-grey-extra-dark); 
+  
   font-weight: 400;
-  line-height: 21px;
+  font-size: 12px;
+  line-height: 18px;
   text-decoration: underline;
 }
 
+.sort a:hover {
+  color: var(--basic-blue);
+}
+
+.sort a:active {
+  color: var(--basic-black);
+  text-decoration: none;
+}
 
 .sorting{
 font-size: 14px;
