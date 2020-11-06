@@ -43,7 +43,9 @@ height: auto;
 }
 
 .main-menu {
-    list-style: none;}
+    list-style: none;
+  }
+
 
 .main-menu a {
     color: var(--basic-black); 
