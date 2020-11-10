@@ -108,6 +108,7 @@ height: auto;
 
 .search-for-hotels button:active {
   background-color: var(--basic-extra-brown);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .detail button{
@@ -126,6 +127,7 @@ height: auto;
 
 .detail button:active {
   background-color: var(--basic-blue-extra-dark);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 
